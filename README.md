@@ -1,4 +1,4 @@
-# WGS pipeline
+# Whole-Genome Sequencing (WGS) Pipeline
 
 This repository includes everything you need to work with WGS data. Raw FASTQ files serve as input and undergo genome alignment to a reference. We will go through this process step by step using the T2T and hg38 references.
 
