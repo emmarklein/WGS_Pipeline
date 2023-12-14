@@ -67,8 +67,7 @@ module load bwa-meth/0.2.4
 bwa mem -t 4 bwa_hg_index /your/path/SRR8670768_1_trimmed.fq /your/path/SRR8670768_2_trimmed.fq -o /your/path/bwa_mem_hg38.sam
 
 #bwa for t2t
-bwa mem -t 4 bwa_t2t_index /your/path/SRR8670768_1_trimmed.fq /your/path/SRR8670768_2_trimmed.fq -o /your/path/bwa_mem_t2t.sam
-~                                                         
+bwa mem -t 4 bwa_t2t_index /your/path/SRR8670768_1_trimmed.fq /your/path/SRR8670768_2_trimmed.fq -o /your/path/bwa_mem_t2t.sam                                                      
 ```
 
 
