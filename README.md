@@ -49,4 +49,13 @@ trim_galore --paired -q 24 --fastqc -o /your/path/SRR8670768_trimmed_new /your/p
 
 ## Burrows-Wheeler Alignment (BWA)
 
+The first step of using BWA is to make an index of the reference genome in fasta format. We can use bwa index for this part!
+
+```
+module load bwa/0.7.17
+bwa index -p bwa_hg_index /your/path/GRCh38.primary_assembly.genome.fa
+bwa index -p bwa_t2t_index /proj/brunklab/users/emma/GCF_009914755.1_T2T-CHM13v2.0_genomic.fna
+```
+
+
 
