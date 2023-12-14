@@ -69,6 +69,24 @@ bwa mem -t 4 bwa_hg_index /your/path/SRR8670768_1_trimmed.fq /your/path/SRR86707
 #bwa for t2t
 bwa mem -t 4 bwa_t2t_index /your/path/SRR8670768_1_trimmed.fq /your/path/SRR8670768_2_trimmed.fq -o /your/path/bwa_mem_t2t.sam                                                      
 ```
+The output of BWA is SAM files (Sequence Alignment/Map), which are text files that contain alignment information. We can do a LOT with these files!
+
+## Wiggle Tracks
+
+To visualize our data, we can create wiggle tracks to upload to UCSC genome browser. This part includes a few steps with some file type conversions.
+
+## SAM to BAM
+
+```
+module load samtools
+samtools view -bS /your/path/bwa_mem_hg38.sam > /your/path/bwa_mem_hg38.bam
+samtools view -bS /your/path/bwa_mem_t2t.sam > /your/path/bwa_mem_t2t.bam
+```
+
+## BAM to BED
+
+We can convert SAM files into Binary Alignment Map (BAM) files with samtools. BAM files are essentially compressed SAM files that can be used to make wiggle tracks!
+
 
 
 
