@@ -54,7 +54,7 @@ The first step of using BWA is to make an index of the reference genome in fasta
 ```
 module load bwa/0.7.17
 bwa index -p bwa_hg_index /your/path/GRCh38.primary_assembly.genome.fa
-bwa index -p bwa_t2t_index /proj/brunklab/users/emma/GCF_009914755.1_T2T-CHM13v2.0_genomic.fna
+bwa index -p bwa_t2t_index /your/path/GCF_009914755.1_T2T-CHM13v2.0_genomic.fna
 ```
 
 
