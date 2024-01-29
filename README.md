@@ -325,4 +325,4 @@ The .wig files can be uploaded to the [UCSC Genome Browser](https://genome.ucsc.
 
 ## Acknowledgements
 
-This README.md was written by Emma Klein. The pipeline was constructed by Emma Klein with the help of Quinn Eberhard.
+Written by Emma Klein. The pipeline was constructed with the help of Quinn Eberhard.
