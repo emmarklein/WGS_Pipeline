@@ -323,4 +323,6 @@ with open(header + ".wig", "w") as outfile:
 
 The .wig files can be uploaded to the [UCSC Genome Browser](https://genome.ucsc.edu/cgi-bin/hgCustom?hgsid=1804009504_57IfGr7IsksWm32NIHRQkaBNJSFc) for visualization. 
 
+## Acknowledgements
 
+This README.md was written by Emma Klein. The pipeline was constructed by Emma Klein with the help of Quinn Eberhard.
